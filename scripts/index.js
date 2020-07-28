@@ -1,0 +1,1 @@
+const readmeGen = require('./readmeGenerator');
