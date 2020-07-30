@@ -1,0 +1,25 @@
+{
+  "name": "uoft-readme-generator",
+  "version": "1.0.0",
+  "description": "This is an interactive command-line application developed in JavaScript and Node JS to dynamically generate project README.md file from a user's input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deenuy/UofT-README-generator.git"
+  },
+  "author": "deenuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deenuy/UofT-README-generator/issues"
+  },
+  "homepage": "https://github.com/deenuy/UofT-README-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "util": "^0.12.3"
+  }
+}
