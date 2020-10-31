@@ -24,5 +24,5 @@ Execute following from mac terminal or windows git bash:
 ![README Demo](demo-readme.gif)
 
 ## License:
-![License]https://img.shields.io/badge/.svg)
+![License](https://img.shields.io/badge/.svg)
 
