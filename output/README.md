@@ -30,7 +30,7 @@ Follow the user manual
 
 ## License: 
 
-![License]https://img.shields.io/badge/.svg)
+![License]https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Contributing: 
 
