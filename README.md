@@ -12,7 +12,7 @@ https://deenuy.github.io/UofT-README-generator/demo-readme.gif
 
 ## Table of Contents:
 * [Description](#Description)
-* [Installation](`#IInstallation & Usage`)
+* [Installation](#IInstallation)
 * [License](#License)
 
 ## Installation & Usage: 
@@ -24,5 +24,5 @@ Execute following from mac terminal or windows git bash:
 ![README Demo](demo-readme.gif)
 
 ## License:
-![License](https://img.shields.io/badge/.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
