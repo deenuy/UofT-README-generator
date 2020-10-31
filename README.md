@@ -1,44 +1,27 @@
-# Title
+# Title: 
 
-ePetShop
+README generator
 
-## Website URL
+## Description: 
 
-http://github.com/deenuy/ePetShop
+README.md file generator for github node platform projects
 
-## Description
+## Website: 
 
-Online pets product store - eCommerce Platform
+https://deenuy.github.io/UofT-README-generator/demo-readme.gif
 
-## Table of Contents
+## Table of Contents:
 
-* [Installation](#Installation)
-* [Usage](#Usage)
+* [Description](#Description)
+* [Installation](`#IInstallation & Usage`)
 * [License](#License)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
-* [Questions](#Questions)
 
-## Installation
+## Installation & Usage: 
+Execute following from mac terminal or windows git bash:
+* `npm install`
+* `node index.js`
 
-Follow the guide
+## License: 
 
-## Usage
+![License]https://img.shields.io/badge/.svg)
 
-User can search and discover items, checkout product and proceed for payment
-
-## License
-
-
-
-## Contributing
-
-Contributions, issues and feature requests are welcome.If interested, please contribute to the project at https://github.com/deenuy/
-
-## Tests
-
-Test 1, 2, 3
-
-## Questions
-
-If any questions, reach out to me at deenuy@gmail.com

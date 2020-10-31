@@ -40,9 +40,10 @@ var questions = [
       name: "usage",
   },
   {
-      type: "input",
-      message: "Choose the license type. Default is selected to The Unlicense. (MIT License/ Apache License 2.0/ The Unlicense):",
+      type: "checkbox",
+      message: "Choose the license type:",
       name: "license",
+      choices: ["License-MIT-green", "License-Apache%202.0-green"],
   },
   {
       type: "input",
@@ -79,7 +80,7 @@ inquirer
   const { url } = response;
   const { usage } = response;
   const { license } = response;
-  const badges = license.map((badge) => `![NPM](https://img.shields.io/npm/l/${badge})`).join(' ');
+  const badges = `https://img.shields.io/badge/${license}.svg)`;
   const { contributing } = response;
   const { tests } = response;
   const { citation } = response;
@@ -94,15 +95,19 @@ inquirer
     `## Table of Contents: \n\n${toc}\n\n`,
     `## Installation: \n\n${installation}\n\n`,
     `## Usage: \n\n${usage}\n\n`,
-    `## License: \n\n${badges}\n\n`,
+    `## License: \n\n![License]${badges}\n\n`,
     `## Contributing: \n\nContributions, issues and feature requests are welcome.If interested, please contribute to the project at https://github.com/${github}/${repo_name}\n\n`,
     `## Tests: \n\n${tests}\n\n`,
     `## Questions: \n\nIf any questions, reach out to me @ ${email}\n`,
   ].join('');
 
-  fs.writeFileSync('./output/README.md', result, (err) => {
-    if (err) throw err;
-    console.log('README.md is successfully generated!');
+  fs.writeFileSync('./output/README.md', result, (error) => {
+    if (error) {
+      console.log(error)
+    } else {
+      console.log(error.message);
+    }
+    console.log('\n\nREADME.md is successfully generated!\n');
   });
 })
 .catch(error => {

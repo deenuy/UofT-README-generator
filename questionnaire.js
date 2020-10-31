@@ -37,9 +37,10 @@ var questions = [
         name: "usage",
     },
     {
-        type: "input",
-        message: "Choose the license type. Default is selected to The Unlicense. (MIT License/ Apache License 2.0/ The Unlicense):",
+        type: "checkbox",
+        message: "Choose the license type:",
         name: "license",
+        choices: ["License-MIT-green", "License-Apache%202.0-green"],
     },
     {
         type: "input",
