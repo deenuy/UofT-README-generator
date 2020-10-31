@@ -8,12 +8,17 @@ var questions = [
     {
         type: "input",
         message: "What is the name of the github repository of the project?",
-        name: "repo",
+        name: "repo_name",
+    },
+    {
+        type: "input",
+        message: "What is the name of the project?",
+        name: "proj_name",
     },
     {
         type: "input",
         message: "Provide a description the application:",
-        name: "description",
+        name: "desc",
     },
     {
         type: "input",
